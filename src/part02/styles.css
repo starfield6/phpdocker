@@ -1,0 +1,33 @@
+select {
+    display: block;
+}
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+}
+form input, form select , form p{
+    margin: .5em .5em;
+    font-size: 1.3em;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.table_container {
+    height: 400px;
+    overflow-y: scroll;
+}
+table {
+    
+    border: 1px solid black;
+    border-collapse: collapse; 
+    padding: 4px;
+}
+
+th, tfoot td {
+    font-weight: bold;
+}
